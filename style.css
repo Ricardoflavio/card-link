@@ -82,18 +82,19 @@ main a:hover {
     font-size: 1rem;
 }
 
-@media(max-width:520px) {
-    sectiom {
-        width: 90%;
+@media(max-width:600px) {
+   section {
+       
+        max-width: 100%; 
         padding: 30px;
     }
 
     header img {
-        width: 100px;
+        max-width: 50%;
     }
 
     header h3 {
-        font-size: 1.3rem;
+        font-size: 10px;
     }
 
     main {
@@ -102,6 +103,6 @@ main a:hover {
 
     main a {
         padding: 10px 0;
-        box-shadow: 10px 50px #eeaeae;
+        box-shadow: 10px 8px #eeaeae;
     }
 }
